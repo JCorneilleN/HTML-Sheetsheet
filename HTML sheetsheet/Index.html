@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Lab One About me</title>
+<link rel="stylesheet" type="text/css"href="css/main.css">
+</head>
+
+<body>
+   <!-- Headings-->
+<header>
+   <h1>Corneille Ngoy</h1>
+ </header>
+
+ <section>
+ 	<article>
+ 		<h2>About Me</h2>
+ 		<p>I am Corneille Ngoy, 24 years old and I am majoring in Computer Science at CWU. You can find me on Facebook by clicking <a  href="https://www.facebook.com/corneille.ngoy.1/"target="_blank">here</a></p><img src="Picture.jpg" width="200" class="picRight">
+ 		<h2>Classes</h2>
+ 		<p>This is my first quarter at CWU, so here are the classes I am taking this quarter</p>
+ 		<table>
+ 			<tr>
+ 				<th>Course Number</th>
+ 				<th>Course Title</th>
+ 				<th>Quarter Taken</th>
+ 			</tr>
+ 			<tr>
+ 				<td>CS446</td>
+ 				<td>User Interface Design</td>
+ 				<td>Fall 2021</td>
+ 			</tr>
+ 			<tr>
+ 				<td>CS301</td>
+ 				<td>Data Structures</td>
+ 				<td>Fall 2021</td>
+ 			</tr>
+ 			<tr>
+ 				<td>PHIL398</td>
+ 				<td>Ethics for Big Data and Tech</td>
+ 				<td>Fall 2021</td>
+ 			</tr>
+
+ 		</table>
+ 		<h2>Interests</h2>
+ 		<p>My interests are Soccer, Anime, Video games, and Dance</p>
+ 		
+ 	</article>
+ </section>
+
+	
+
+<br>
+
+<!--Forms-->
+<form action="process.php" method="POST">  
+	<div>
+<section>
+	<h2>Dog Information</h2>
+</section>
+	<label>Name</label>
+	<input type="text" name="Name">
+	</div>
+	<br>
+
+	<div>
+	<label>Phylum</label>
+	<input type="text" name="Phylum">
+   </div>
+   <br>
+   <div>
+   	<label>Gender</label>
+   	<select name="gender">
+   		<option value="male">Male</option>
+   		<option value="female">Female</option>
+   		<option value="Other">Other</option>
+   		
+   	</select>
+   </div>
+   <br>
+    <div>
+    	<label>Age:</label>
+    	<input type="number" name="age" value="">
+    </div>
+    <br>
+    <div>
+    	<input type="submit" name="submit" value="Submit"> 
+    </div>
+</form>
+
+
+
+	</body>
+</html>

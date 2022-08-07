@@ -1,0 +1,37 @@
+h1,h2{
+	color: maroon;
+	background-color: skyblue;
+	font-family: Georgia;
+}
+
+h1{
+	text-align: center;
+}
+a:hover{
+	color: red;
+}
+a:visited{
+	color: indianred;
+}
+
+table{
+	width: 400px;
+}
+
+
+th{
+	text-align: left;
+}
+
+td{
+	color: green;
+}
+
+table, th, td{
+	border:  1px solid #000;
+}
+
+.picRight{
+	float: right;
+	margin-left: 20px;
+}
